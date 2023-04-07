@@ -1,0 +1,27 @@
+weather_data={
+ 'day':['1/1/2017','1/2/2017','1/3/2017]'
+ 'temperature':[32,35,28],
+'windspeed':[6,7,2],
+'event,:['rain','sunny','snow']
+}
+
+
+using tuple list
+weather_data={
+	('1/1/2017',32,6,'rain')
+	('1/2/2017',35,7,'sunny')
+	('1/3/2017',28,2,'snow')
+}
+
+#using list to dictionarry
+weather_datass=[
+{'day':'1/1/2017', 'temperature':32, 'windspeed':6, 'event': 'rain'},
+{'day':'2/1/2017', 'temperature':35, 'windspeed':7, 'event': 'sunny'},
+{'day':'3/1/2017', 'temperature':28, 'windspeed':2, 'event': 'snow'}
+]
+
+
+
+
+
+	
